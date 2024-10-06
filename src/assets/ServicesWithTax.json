@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "key": "6bb0bc2c-0e0a-4459-9ce7-22e1c3dcb99f",
+    "name": "خدمة رقم 1",
+    "en_Name": "string",
+    "serviceCode": "s1",
+    "medicalServicesGroupId": 1,
+    "servicePrice": 100,
+    "serviceCost": 50,
+    "whoCanOrder": 0,
+    "serviceTax": [
+      {
+        "id": 1,
+        "medicalServicesId": 1,
+        "taxId": 1,
+        "tax": {
+          "id": 1,
+          "key": "d6468214-fd3f-4c1e-83e9-196e2bd2f037",
+          "name": "VAT1",
+          "en_Name": "string",
+          "taxForCitizen": 0,
+          "taxForUnCitizen": 15,
+          "taxForCompany": 0,
+          "createdBy": null,
+          "lastUpdatedBy": null,
+          "creationDate": "2024-09-25T10:53:42.5189213",
+          "lastUpdatedDate": null
+        }
+      },
+      {
+        "id": 1,
+        "medicalServicesId": 1,
+        "taxId": 2,
+        "tax": {
+          "id": 2,
+          "key": "d6468214-fd3f-4c1e-83e9-196e2bd2f037",
+          "name": "VAT2",
+          "en_Name": "string",
+          "taxForCitizen": 10,
+          "taxForUnCitizen": 10,
+          "taxForCompany": 0,
+          "createdBy": null,
+          "lastUpdatedBy": null,
+          "creationDate": "2024-09-25T10:53:42.5189213",
+          "lastUpdatedDate": null
+        }
+      }
+    ],
+    "createdBy": null,
+    "lastUpdatedBy": null,
+    "creationDate": "2024-09-25T10:55:14.0095389",
+    "lastUpdatedDate": null
+  },
+  {
+    "id": 2,
+    "key": "6bb0bc2c-0e0a-4459-9ce7-22e1c3dcb99f",
+    "name": "خدمة رقم 2",
+    "en_Name": "string",
+    "serviceCode": "s2",
+    "medicalServicesGroupId": 1,
+    "servicePrice": 200,
+    "serviceCost": 100,
+    "whoCanOrder": 0,
+    "serviceTax": [
+      {
+        "id": 1,
+        "medicalServicesId": 2,
+        "taxId": 1,
+        "tax": {
+          "id": 1,
+          "key": "d6468214-fd3f-4c1e-83e9-196e2bd2f037",
+          "name": "VAT1",
+          "en_Name": "string",
+          "taxForCitizen": 0,
+          "taxForUnCitizen": 15,
+          "taxForCompany": 0,
+          "createdBy": null,
+          "lastUpdatedBy": null,
+          "creationDate": "2024-09-25T10:53:42.5189213",
+          "lastUpdatedDate": null
+        }
+      }
+    ],
+    "createdBy": null,
+    "lastUpdatedBy": null,
+    "creationDate": "2024-09-25T10:55:14.0095389",
+    "lastUpdatedDate": null
+  },
+  {
+    "id": 3,
+    "key": "6bb0bc2c-0e0a-4459-9ce7-22e1c3dcb99f",
+    "name": "خدمة رقم 3",
+    "en_Name": "string",
+    "serviceCode": "s3",
+    "medicalServicesGroupId": 1,
+    "servicePrice": 500,
+    "serviceCost": 100,
+    "whoCanOrder": 0,
+    "serviceTax": [],
+    "createdBy": null,
+    "lastUpdatedBy": null,
+    "creationDate": "2024-09-25T10:55:14.0095389",
+    "lastUpdatedDate": null
+  }
+ 
+]

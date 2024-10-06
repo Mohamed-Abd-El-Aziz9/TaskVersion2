@@ -1,0 +1,55 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+  }
+  
+  .table-responsive {
+    margin-bottom: 20px;
+  }
+  
+  .border {
+    background-color: #ffffff;
+  }
+  
+
+  strong {
+    color: green;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+  /* styles.css or component-specific CSS */
+body {
+  background-color: #f8f9fa; /* Light background for contrast */
+}
+
+h2 {
+  color: #007bff; /* Bootstrap primary color */
+}
+
+.form-control {
+  border-radius: 0.5rem; /* Rounded corners */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Bootstrap primary color */
+  border-color: #007bff; /* Match border with button color */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  border-color: #0056b3; /* Match border on hover */
+}
+
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Subtle shadow effect */
+}
+.w-40 {
+  width: 290px  ;
+}
